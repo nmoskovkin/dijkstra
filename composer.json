@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "7.0.*"
+  },
+  "autoload": {
+    "psr-4": {"Dijkstra\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dijkstra\\Tests\\": "tests/"
+    }
+  }
+}
